@@ -1,0 +1,26 @@
+[
+  {
+    "identificador": "U001",
+    "nombre": "Engiel",
+    "usuario": "engiel22",
+    "contraseña": "1234"
+  },
+  {
+    "identificador": "U002",
+    "nombre": "Licenciado",
+    "usuario": "licenluis",
+    "contraseña": "abcd"
+  },
+  {
+    "identificador": "U003",
+    "nombre": "Veterinario",
+    "usuario": "veteluli",
+    "contraseña": "vet123"
+  },
+  {
+    "identificador": "U004",
+    "nombre": "Cajero",
+    "usuario": "cajeropichincha",
+    "contraseña": "caje00"
+  }
+]

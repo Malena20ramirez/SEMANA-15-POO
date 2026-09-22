@@ -1,0 +1,32 @@
+[
+  {
+    "codigo": "P001",
+    "nombre": "Encebollado Mixto",
+    "categoria": "Platos Fuertes",
+    "precio": 4.50
+  },
+  {
+    "codigo": "P002",
+    "nombre": "Seco de Pollo",
+    "categoria": "Platos Fuertes",
+    "precio": 3.50
+  },
+  {
+    "codigo": "P003",
+    "nombre": "Guatita Completa",
+    "categoria": "Platos Fuertes",
+    "precio": 4.00
+  },
+  {
+    "codigo": "P004",
+    "nombre": "Jugo Natural de Naranjilla",
+    "categoria": "Bebidas",
+    "precio": 1.25
+  },
+  {
+    "codigo": "P005",
+    "nombre": "Porción de Chifles",
+    "categoria": "Acompañantes",
+    "precio": 0.50
+  }
+]
