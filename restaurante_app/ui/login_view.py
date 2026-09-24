@@ -1,3 +1,4 @@
+from PIL import Image, ImageTk
 import tkinter as tk
 from pathlib import Path
 from tkinter import ttk
@@ -39,8 +40,10 @@ class LoginView(tk.Frame):
         if not ruta_logo.exists():
             return None
 
-        logo_original = tk.PhotoImage(file=str(ruta_logo))
-        self.logo = logo_original.subsample(1, 1)
+    
+        imagen_pil = Image.open(ruta_logo)
+        imagen_redimensionada = imagen_pil.resize((120, 120)) 
+        self.logo = ImageTk.PhotoImage(imagen_redimensionada)
         return self.logo
 
     def construir_interfaz(self):
